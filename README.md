@@ -1,24 +1,42 @@
 # *"Computer science is no more about computers than astronomy is about telescopes."* Edsger W. Dijkstra  
 
+
+## **Projects, ideas, experiments ▸**
+
+This is my corner on GitHub and here you will find what I build, models, notes, attempts, errors, and everything I need in order to understand better how information works, which is the topic that fascinates me the most.
+
+## **Areas of interest ▸**
+
+I move across formal languages, computability, complexity, formal semantics, parallel models of computation, and everything that has a structure rigid enough to be taken apart and put back together, and I am also interested in how information behaves when you look at it through the eyes of physics, energy, limits of computation, dynamics, systems that evolve, and another aspect that matters to me is epistemology, analytic philosophy, and the philosophy of language because it helps to understand the world and to see how formal models connect to meaning and where they stop doing so.
+
+## **A personal note ▸**
+
+I have been playing music for as long as I can remember, I loved Walter Piston’s beautiful book, and I have always thought that harmonic structures work like formal systems and if you think about it they are not that different from a language or from a model of computation.
+
+
+
+## My projects here ▸
+
+I do not use public repositories very often but whatever is worth putting online is here and this is where you will find the things that I think deserve to be shared, even if they are small, partial, experimental or simply useful to me while I try to understand better what I am working on.
+
+
+## **Md2Arxive** - Markdown to LaTeX Transpiler
+
+**A practical bridge between compiler theory and production code.**
+
+A Markdown-to-LaTeX transpiler written in OCaml, designed to transform academic writing into arXiv-ready submissions. More than a tool, it's a **didactic project** that demonstrates how formal semantics (denotational, axiomatic, operational) apply to real-world compilation.
+
+**What makes it stand out:**
+- Formal contracts (`@requires`, `@ensures`, `@invariant`) throughout the codebase
+- Hand-written DFA lexer and explicit-state parser
+- Global semantic validation (orphan citations, ORCID format, table consistency)
+- Comprehensive error recovery with non-fatal diagnostics
+- Three formal semantics documented in companion PDFs
+
+A small but complete compiler pipeline showing AST, lexing, parsing, semantic validation, and code generation on an understandable domain.
+
 ---
 
-## Progetti, idee, esperimenti ▸
-
-Questo è il mio angolo su GitHub e ci trovi quello che costruisco, modelli, appunti, prove, errori e tutto ciò che mi serve per capire meglio come funziona l’informazione che è l'argomento che mi affascina di più.
-
----
-
-## Aree di interesse ▸
-
-Mi muovo tra linguaggi formali, calcolabilità, complessità, semantihe formali, modelli di calcolo parallelo e tutto ciò che ha una struttura abbastanza rigida da poter essere smontata e rimontata. Mi interessa anche come l’informazione si comporta quando la guardi con gli occhi della fisica: energia, limiti del calcolo, dinamiche, sistemi che evolvono. Un altro aspetto è l'epistemologia, la filosofia analitica e del linguaggio. Perché aiuta a capire il mondo e come i modelli formali si agganciano al significato e dove smettono di farlo.
-
----
-
-## Una nota personale ▸
-
-Suono da sempre, ho amato il bellissimo libro di Walter Piston e ho sempre pensato che le strutture armoniche funzionino come sistemi formali e se ci pensate non sono così diversi da un linguaggio o da un modello di calcolo.
-
----
 
 ## Licenze ▸
 
