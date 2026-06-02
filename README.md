@@ -15,12 +15,11 @@ I have been playing music for as long as I can remember, I loved Walter Piston�
 
 
 
-## My projects here ▸
+## **My projects here on GitHub ▸**
 
 I do not use public repositories very often but whatever is worth putting online is here and this is where you will find the things that I think deserve to be shared, even if they are small, partial, experimental or simply useful to me while I try to understand better what I am working on.
 
-
-## **Md2Arxive** - Markdown to LaTeX Transpiler
+## **Md2Arxive** - Markdown to LaTeX Transpiler ▸▸
 
 **A practical bridge between compiler theory and production code.**
 
@@ -37,7 +36,32 @@ A small but complete compiler pipeline showing AST, lexing, parsing, semantic va
 
 ---
 
+## **docxwatermarker: Educational case study in rigorous Python engineering. ▸▸**
 
-## Licenze ▸
+Replace images inside .docx templates byte-for-byte, preserving layout for per-recipient document personalization (confidentiality stamps, draft markers, watermarks for traceability).
 
-Tutto quello che trovi qui è rilasciato con licenze **libere**
+Bridges formal methods with production code: shipped with complete axiomatic + operational semantic specifications, each translated to English and Italian. Code ↔ spec bidirectionally synchronized via annotations (test-verified).
+
+Written in spare time as a case study in rigorous engineering with zero XML manipulation, immutable API, reproducible builds, mypy strict, design-by-contract preconditions/postconditions.
+
+Educational framework for rigorous software engineering, embedded in a practical tool.
+
+Features:
+- Formal Semantics: axiomatic (Hoare triples, total correctness) + operational
+- Specification Cross-Reference Pattern: code ↔ spec bidirectional sync via annotations
+- Immutable API (MappingProxyType, factory patterns, chaining)
+- Reproducible byte-identical builds (DOS-min timestamps)
+- Marker detection via PNG tEXt metadata (zero-config)
+- Structured JSON-serializable errors
+- mypy strict + ruff + 300+ test assertions
+
+Documentation:
+- 4 formal PDFs (EN + IT): axiomatic semantics, operational semantics, case study
+- Design-by-contract (require/ensure split)
+- Hoare logic + operational semantics + total correctness proofs
+
+
+## **Licenses ▸**
+
+Everything you find here is released under **free** licenses
+
