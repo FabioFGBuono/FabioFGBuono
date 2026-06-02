@@ -1,25 +1,32 @@
-# *"Computer science is no more about computers than astronomy is about telescopes."* Edsger W. Dijkstra  
+# ***"Computer science is no more about computers than astronomy is about telescopes."*** *Edsger W. Dijkstra*
 
 
-## **Projects, ideas, experiments ▸**
+
+## ∑ ***▸ Projects, ideas, experiments***
 
 This is my corner on GitHub and here you will find what I build, models, notes, attempts, errors, and everything I need in order to understand better how information works, which is the topic that fascinates me the most.
 
-## **Areas of interest ▸**
+
+
+## ∀ ***▸ Areas of interest***
 
 I move across formal languages, computability, complexity, formal semantics, parallel models of computation, and everything that has a structure rigid enough to be taken apart and put back together, and I am also interested in how information behaves when you look at it through the eyes of physics, energy, limits of computation, dynamics, systems that evolve, and another aspect that matters to me is epistemology, analytic philosophy, and the philosophy of language because it helps to understand the world and to see how formal models connect to meaning and where they stop doing so.
 
-## **A personal note ▸**
+
+
+## 𝄞 ***▸ A personal note***
 
 I have been playing music for as long as I can remember, I loved Walter Piston’s beautiful book, and I have always thought that harmonic structures work like formal systems and if you think about it they are not that different from a language or from a model of computation.
 
 
 
-## **My projects here on GitHub ▸**
+
+## λ ***▸ My projects here on GitHub***
 
 I do not use public repositories very often but whatever is worth putting online is here and this is where you will find the things that I think deserve to be shared, even if they are small, partial, experimental or simply useful to me while I try to understand better what I am working on.
 
-## **Md2Arxive** - Markdown to LaTeX Transpiler ▸▸
+
+## **▸▸ Md2Arxive** - Markdown to LaTeX Transpiler
 
 **A practical bridge between compiler theory and production code.**
 
@@ -34,9 +41,8 @@ A Markdown-to-LaTeX transpiler written in OCaml, designed to transform academic 
 
 A small but complete compiler pipeline showing AST, lexing, parsing, semantic validation, and code generation on an understandable domain.
 
----
 
-## **docxwatermarker: Educational case study in rigorous Python engineering. ▸▸**
+## **▸▸ Docxwatermarker: Educational case study in rigorous Python engineering**
 
 Replace images inside .docx templates byte-for-byte, preserving layout for per-recipient document personalization (confidentiality stamps, draft markers, watermarks for traceability).
 
@@ -54,14 +60,13 @@ Features:
 - Marker detection via PNG tEXt metadata (zero-config)
 - Structured JSON-serializable errors
 - mypy strict + ruff + 300+ test assertions
-
-Documentation:
-- 4 formal PDFs (EN + IT): axiomatic semantics, operational semantics, case study
+- 4 formal PDFs (EN + IT): axiomatic semantics, operational semantics, study guide
 - Design-by-contract (require/ensure split)
 - Hoare logic + operational semantics + total correctness proofs
 
 
-## **Licenses ▸**
+
+## ⊘ ***▸ Licenses ▸***
 
 Everything you find here is released under **free** licenses
 
