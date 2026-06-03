@@ -92,7 +92,7 @@ Features:
 
 ---
 
-## ⊘ ***▸ Licenses ▸***
+## ⊘ ***▸ Licenses***
 
 Everything you find here is released under **free** licenses
 
@@ -105,6 +105,7 @@ The theoretical content, proofs, and implementation described in these files are
 This statement applies to all repositories under this account, unless otherwise indicated.
 
 ---
+
 
 ***If you see something broken, open an issue.***
 
