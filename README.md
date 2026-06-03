@@ -6,7 +6,7 @@
 
 This is my corner on GitHub and here you will find what I build, models, notes, attempts, errors, and everything I need in order to understand better how information works, which is the topic that fascinates me the most.
 
-
+Much of what is presented here can be summarized by C.A.R. Hoare’s maxim: **"The most important property of a program is whether it accomplishes the intention of its user"**
 
 ## ∀ ***▸ Areas of interest***
 
@@ -69,4 +69,15 @@ Features:
 ## ⊘ ***▸ Licenses ▸***
 
 Everything you find here is released under **free** licenses
+
+
+
+## ***▸ Acknowledgements for ideas***
+
+The theoretical content, proofs, and implementation described in these files are the authors' original work. Where present, all scientific claims and conceptual contributions are solely attributable to the authors. AI‑assisted tools were used only for non‑creative support tasks such as bibliographic cross‑checking and citation verification; advanced debugging assistance; compilation and consistency checks; language revision of non‑native English prose; and rephrasing of inline code comments for clarity, without altering technical content or algorithmic intent. Some portions of the text were translated by the authors themselves, and certain English passages were intentionally left in their original, author‑written form without AI revision. No AI tool contributed to the mathematical results, the algorithmic design, the ideas, or the scientific claims where present.
+
+This statement applies to all repositories under this account, unless otherwise indicated.
+
+
+
 
