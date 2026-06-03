@@ -1,23 +1,36 @@
 # ***"Computer science is no more about computers than astronomy is about telescopes."*** *Edsger W. Dijkstra*
 
 
+### ***_All the work presented here is not intended as being in development, it is an idea shared with the public unless explicitly stated otherwise. All repositories should be understood as conceptual showcases_***
+
+---
+
+
+## Key repos
+| Repo | Tech | Status | One-line |
+|---|---:|---:|---|
+| Md2Arxive | OCaml | Proof-of-concept / unmaintained | Markdown → LaTeX transpiler for arXiv submissions, formal semantics & compiler pipeline. |
+| Docxwatermarker | Python | Production-tested / case study / unmaintained | Byte-preserving image replacement in .docx templates, formal specs + reproducible builds. |
+
+---
+
 
 ## ∑ ***▸ Projects, ideas, experiments***
+
 
 This is my corner on GitHub and here you will find what I build, models, notes, attempts, errors, and everything I need in order to understand better how information works, which is the topic that fascinates me the most.
 
 Much of what is presented here can be summarized by C.A.R. Hoare’s maxim: **"The most important property of a program is whether it accomplishes the intention of its user"**
+
 
 ## ∀ ***▸ Areas of interest***
 
 I move across formal languages, computability, complexity, formal semantics, parallel models of computation, and everything that has a structure rigid enough to be taken apart and put back together, and I am also interested in how information behaves when you look at it through the eyes of physics, energy, limits of computation, dynamics, systems that evolve, and another aspect that matters to me is epistemology, analytic philosophy, and the philosophy of language because it helps to understand the world and to see how formal models connect to meaning and where they stop doing so.
 
 
-
 ## 𝄞 ***▸ A personal note***
 
-I have been playing music for as long as I can remember, I loved Walter Piston’s beautiful book, and I have always thought that harmonic structures work like formal systems and if you think about it they are not that different from a language or from a model of computation.
-
+I have been playing music for as long as I can remember, I loved Walter Piston’s beautiful book, and I have always thought that harmonic structures work like formal systems and if you think about it they are not that different from a language or from a model of computation. Ah... Juggling relaxes me as much as playing the guitar or unwinding with a good movie. I'm also an avid strategy game enthusiast, from Go and chess to Quarto, Othello, Connect Four, and plenty more. And I love cooking, and I’ve always enjoyed how often computer science borrows culinary metaphors. From classic works like Java Restaurant (Francesco Tisato, Libero Nigro, Apogeo), which explains concurrency through the workflow of a kitchen, to the global tradition of technical "Cookbooks", the parallel between recipes and algorithms always makes me smile. I also appreciate the reverse approach of books like Cooking for Programmers 0x00 (Richard Wurzer, 0x0D Press), which teach real cooking through pseudocode, flowcharts, and programming concepts, proving just how interchangeable these two worlds can be.
 
 
 
@@ -25,6 +38,7 @@ I have been playing music for as long as I can remember, I loved Walter Piston�
 
 I do not use public repositories very often but whatever is worth putting online is here and this is where you will find the things that I think deserve to be shared, even if they are small, partial, experimental or simply useful to me while I try to understand better what I am working on.
 
+---
 
 ## **▸▸ Md2Arxive** - Markdown to LaTeX Transpiler
 
@@ -41,6 +55,7 @@ A Markdown-to-LaTeX transpiler written in OCaml, designed to transform academic 
 
 A small but complete compiler pipeline showing AST, lexing, parsing, semantic validation, and code generation on an understandable domain.
 
+---
 
 ## **▸▸ Docxwatermarker: Educational case study in rigorous Python engineering**
 
@@ -64,7 +79,7 @@ Features:
 - Design-by-contract (require/ensure split)
 - Hoare logic + operational semantics + total correctness proofs
 
-
+---
 
 ## ⊘ ***▸ Licenses ▸***
 
