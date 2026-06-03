@@ -5,7 +5,9 @@
 ![Coffee](https://img.shields.io/badge/Fueled%20by-Coffee-brown)
 ![Entropy](https://img.shields.io/badge/Entropy-Increasing-black)
 
-### ***_All the work presented here is not intended as being in development, it is an idea shared with the public unless explicitly stated otherwise. All repositories should be understood as conceptual showcases_***
+### _All the work presented here is not intended as being in development, it is an idea shared with the public unless explicitly stated otherwise. All repositories should be understood as conceptual showcases_...
+
+***Despite all this, EVERYTHING works and everything is written at the state of the art of technology, at least as far as I know (I hope) :P***
 
 ---
 
