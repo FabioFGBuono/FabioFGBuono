@@ -1,5 +1,9 @@
 # ***"Computer science is no more about computers than astronomy is about telescopes."*** *Edsger W. Dijkstra*
 
+![Status](https://img.shields.io/badge/Status-Experimenting-orange)
+![Focus](https://img.shields.io/badge/Focus-Learning-blue)
+![Coffee](https://img.shields.io/badge/Fueled%20by-Coffee-brown)
+![Entropy](https://img.shields.io/badge/Entropy-Increasing-black)
 
 ### ***_All the work presented here is not intended as being in development, it is an idea shared with the public unless explicitly stated otherwise. All repositories should be understood as conceptual showcases_***
 
@@ -7,6 +11,8 @@
 
 
 ## Key repos
+![Issues](https://img.shields.io/badge/Issues-Open_with_care-green)
+
 | Repo | Tech | Status | One-line |
 |---|---:|---:|---|
 | Md2Arxive | OCaml | Proof-of-concept / unmaintained | Markdown → LaTeX transpiler for arXiv submissions, formal semantics & compiler pipeline. |
@@ -93,6 +99,17 @@ The theoretical content, proofs, and implementation described in these files are
 
 This statement applies to all repositories under this account, unless otherwise indicated.
 
+---
 
+***If you see something broken, open an issue.***
+
+
+***If you see something cool, steal it.***
+
+
+***If you see something missing, build it.****
+
+
+***And if I don’t reply… I’m probably busy breaking something else.***
 
 
