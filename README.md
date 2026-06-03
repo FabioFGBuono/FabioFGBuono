@@ -12,7 +12,7 @@
 ---
 
 
-## Key repos
+## Key repos  
 ![Issues](https://img.shields.io/badge/Issues-Open_with_care-green)
 
 | Repo | Tech | Status | One-line |
@@ -48,7 +48,8 @@ I do not use public repositories very often but whatever is worth putting online
 
 ---
 
-## **▸▸ Md2Arxive** - Markdown to LaTeX Transpiler
+
+## ***▸▸ [Md2Arxive](https://github.com/FabioFGBuono/Md2Arxive)*** - Markdown to LaTeX Transpiler
 
 **A practical bridge between compiler theory and production code.**
 
@@ -65,7 +66,9 @@ A small but complete compiler pipeline showing AST, lexing, parsing, semantic va
 
 ---
 
-## **▸▸ Docxwatermarker: Educational case study in rigorous Python engineering**
+
+## ***▸▸ [Docxwatermarker](https://github.com/FabioFGBuono/Docxwatermarker): Educational case study in rigorous Python engineering***
+
 
 Replace images inside .docx templates byte-for-byte, preserving layout for per-recipient document personalization (confidentiality stamps, draft markers, watermarks for traceability).
 
