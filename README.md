@@ -19,7 +19,7 @@
 |---|---:|---:|---|
 | Md2Arxive | OCaml | Proof-of-concept / unmaintained | Markdown → LaTeX transpiler for arXiv submissions, formal semantics & compiler pipeline. |
 | Docxwatermarker | Python | Production-tested / case study / unmaintained | Byte-preserving image replacement in .docx templates, formal specs + reproducible builds. |
-
+| Symmetries-Invariants-Music | text, math and music | Proof-of-concept | Exploring algebraic structures in music through symmetries and invariants, formal composition framework. |
 ---
 
 
@@ -91,6 +91,18 @@ Features:
 - Hoare logic + operational semantics + total correctness proofs
 
 ---
+
+
+## ***▸▸ [Symmetries-Invariants-Music](https://github.com/FabioFGBuono/Symmetries-Invariants-Music)*** - Formal Structure in Harmonic Language
+
+**Where mathematics meets musical composition.**
+
+TODO...
+
+---
+
+
+
 
 ## ⊘ ***▸ Licenses***
 
