@@ -327,9 +327,118 @@ table {
   box-shadow: 9px 22px 22px 22px rgba(0, 0, 0, 0.3);
   border: 3px solid var(--accent);
 }
+/* Immagini tonde riutilizzabili */
+.avatar-round {
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255,255,255,0.06);
+  box-shadow: 0 8px 24px rgba(10,14,39,0.6), 0 2px 6px rgba(110,179,255,0.08);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+}
+
+/* Variante hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+.hero-avatar {
+  width: 300px;
+  height: 300px;
+  border: 5px solid rgba(110,179,255,0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.hero-avatar:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(16,24,48,0.6);
+}
+
+/* Variante piccola per badges */
+.small-avatar {
+  width: 56px;
+  height: 56px;
+  border: 3px solid rgba(255,255,255,0.04);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .hero-avatar {
+    width: 140px;
+    height: 140px;
+  }
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(135deg,
+      rgba(110,179,255,0.20) 0%,
+      rgba(110,179,255,0.10) 25%,
+      rgba(10,14,39,0.65) 70%,
+      rgba(10,14,39,0.85) 100%);
+  mix-blend-mode: multiply;
+  filter: blur(14px) contrast(1.02);
+  opacity: 0.98;
+}
+body > * { position: relative; z-index: 1; }
+
+.diag-accent::before{
+  content: "";
+  position: fixed;
+  inset: -20% -40% -20% -40%;
+  transform: rotate(-12deg);
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg,
+    rgba(110,179,255,0.22),
+    rgba(110,179,255,0.08) 40%,
+    rgba(10,14,39,0.65) 100%);
+  filter: blur(18px);
+  mix-blend-mode: overlay;
+  opacity: 0.98;
+}
+body { position: relative; }
+.badges img {
+  transition: transform 0.28s cubic-bezier(.2,.9,.3,1), filter 0.28s;
+  transform-origin: center;
+}
+.badges img:hover {
+  transform: translateY(-6px) rotate(-4deg) scale(1.06);
+  filter: drop-shadow(0 12px 24px rgba(110,179,255,0.12));
+}
+body::after{
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: linear-gradient(transparent 50%, rgba(255,255,255,0.01) 50%);
+  background-size: 100% 6px;
+  mix-blend-mode: soft-light;
+  opacity: 0.6;
+  transform: translateZ(0);
+}
+
+
   </style>
 </head>
-<body>
+<body class="diag-accent">
+  
+  <div class="hero">
+    <img src="LogoFB.png" alt="Foto di Fabio" class="avatar-round hero-avatar" loading="lazy" width="220" height="220">
+  </div>
+  
+
   <h1><center><strong>Computer science is no more about computers than astronomy is about telescopes.</strong><em>Edsger W. Dijkstra</em></center></h1>
 
   <div class="badges" aria-hidden="true">
@@ -366,6 +475,12 @@ table {
         <td style="text-align:right">Python</td>
         <td>Production-tested / case study / unmaintained</td>
         <td>Byte-preserving image replacement in .docx templates, formal specs + reproducible builds.</td>
+      </tr>
+      <tr>
+        <td><a class="repo" href="https://github.com/FabioFGBuono/Schrodinger-Recursion">Schrödinger Recursion</a></td>
+        <td style="text-align:right">Python</td>
+        <td>Production-tested / case study / maintained and unmaintained</td>
+        <td>A compact, educational Lisp interpreter in Python that demonstrates the **Schrödinger Recursion** pattern.</td>
       </tr>
       <tr>
         <td><a class="repo" href="https://github.com/FabioFGBuono/Symmetries-Invariants-Music">Symmetries-Invariants-Music</a></td>
@@ -431,11 +546,27 @@ table {
 
   <hr>
 
+  <h3><a class="repo" href="https://github.com/FabioFGBuono/Schrodinger-Recursion">Another Educational case study in rigorous Python engineering</a></h3>
+  <p><em>A compact, educational Lisp interpreter in Python that demonstrates the 
+    **Schrödinger Recursion** pattern... a simple S-expression parser, symbolic/list representations 
+    (`Recipe`, `Platter`), a lexical environment (`Kitchen`), and a trampoline-based mechanism for 
+    handling thunks and recursion. Includes built-in functions, examples and tests 
+    (definitions, lambdas, recursion, lists, arithmetic), plus design notes explaining 
+    key choices and trade-offs. Use this repository as a hands-on tool to explore closures,
+     thunking, trampolining, and interpreter design decisions, ideal for teaching or 
+     experimentation.</em></p>
+
+  <hr>
+  
   <h3><a class="repo" href="https://github.com/FabioFGBuono/Symmetries-Invariants-Music">Symmetries-Invariants-Music</a></h3>
-  <p><em>This repository explores the hidden mathematical symmetries in Western tonal music and how the circle of fifths emerges from the structure of whole tones through an original observation on the relationship between musical scales and the principles of symmetry, explained through... the 'zig-zag' (interleaving).</em></p>
+  <p><em>This repository explores the hidden mathematical symmetries in Western tonal 
+    music and how the circle of fifths emerges from the structure of whole tones through 
+    an original observation on the relationship between musical scales and the principles of 
+    symmetry, explained through... the 'zig-zag' (interleaving).</em></p>
   <blockquote>
     <span class="quote-title">Perfect for:</span>
-    Musicians curious about mathematics, mathematicians interested in music, or anyone who wants to discover elegant structures hidden within classical music theory.
+    Musicians curious about mathematics, mathematicians interested in music, or anyone who 
+    wants to discover elegant structures hidden within classical music theory.
   </blockquote>
 
   <hr>
@@ -446,7 +577,16 @@ table {
   <hr>
 
   <h2>▸ Acknowledgements for ideas</h2>
-  <p>The theoretical content, proofs, and implementation described in these files are the authors' original work. Where present, all scientific claims and conceptual contributions are solely attributable to the authors. AI‑assisted tools were used only for non‑creative support tasks such as bibliographic cross-checking and citation verification; advanced debugging assistance; compilation and consistency checks; language revision of non‑native English prose; and rephrasing of inline code comments for clarity, without altering technical content or algorithmic intent. Some portions of the text were translated by the authors themselves, and certain English passages were intentionally left in their original, author‑written form without AI revision. No AI tool contributed to the mathematical results, the algorithmic design, the ideas, or the scientific claims where present.</p>
+  <p>The theoretical content, proofs, and implementation described in these files are 
+    the authors' original work. Where present, all scientific claims and conceptual 
+    contributions are solely attributable to the authors. AI-assisted tools were used only for 
+    non-creative support tasks such as bibliographic cross-checking and citation verification; 
+    advanced debugging assistance; compilation and consistency checks; language revision of 
+    non-native English prose; and rephrasing of inline code comments for clarity, without altering 
+    technical content or algorithmic intent. Some portions of the text were translated by the 
+    authors themselves, and certain English passages were intentionally left in their original, 
+    author-written form without AI revision. No AI tool contributed to the mathematical results, 
+    the algorithmic design, the ideas, or the scientific claims where present.</p>
   <p>This statement applies to all repositories under this account, unless otherwise indicated.</p>
 
   <hr>
