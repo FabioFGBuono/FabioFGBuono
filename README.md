@@ -95,7 +95,7 @@ Features:
 
 ## ***▸▸ [Symmetries-Invariants-Music](https://github.com/FabioFGBuono/Symmetries-Invariants-Music)***
 
-*This repository explores the hidden mathematical symmetries in Western tonal music and how the circle of fifths emerges from the structure of whole tones through an original observation on the relationship between musical scales and the principles of symmetry, explained through an innovative—simple yet innovative—framework called the ‘zig‑zag’ (interleaving).  
+*This repository explores the hidden mathematical symmetries in Western tonal music and how the circle of fifths emerges from the structure of whole tones through an original observation on the relationship between musical scales and the principles of symmetry, explained through... the ‘zig‑zag’ (interleaving).
 
 > Perfect for musicians curious about mathematics, mathematicians interested in music, or anyone who wants to discover elegant structures hidden within classical music theory.*
 
