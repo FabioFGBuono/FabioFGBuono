@@ -19,7 +19,7 @@
 |---|---:|---:|---|
 | Md2Arxive | OCaml | Proof-of-concept / unmaintained | Markdown → LaTeX transpiler for arXiv submissions, formal semantics & compiler pipeline. |
 | Docxwatermarker | Python | Production-tested / case study / unmaintained | Byte-preserving image replacement in .docx templates, formal specs + reproducible builds. |
-| Symmetries-Invariants-Music | text, math and music | Proof-of-concept | Exploring algebraic structures in music through symmetries and invariants, formal composition framework. |
+| Symmetries-Invariants-Music | text, math and music | an idea about music theory | Whole tones, fifths, and zigzag patterns |
 ---
 
 
@@ -93,14 +93,15 @@ Features:
 ---
 
 
-## ***▸▸ [Symmetries-Invariants-Music](https://github.com/FabioFGBuono/Symmetries-Invariants-Music)*** - Formal Structure in Harmonic Language
+## ***▸▸ [Symmetries-Invariants-Music](https://github.com/FabioFGBuono/Symmetries-Invariants-Music)***
 
-**Where mathematics meets musical composition.**
+*This repository explores the hidden mathematical symmetries in Western tonal music and how the circle of fifths emerges from the structure of whole tones through an original observation on the relationship between musical scales and the principles of symmetry, explained through an innovative—simple yet innovative—framework called the ‘zig‑zag’ (interleaving).  
 
-TODO...
+> Perfect for musicians curious about mathematics, mathematicians interested in music, or anyone who wants to discover elegant structures hidden within classical music theory.*
+
+
 
 ---
-
 
 
 
