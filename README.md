@@ -19,6 +19,7 @@
 |---|---:|---:|---|
 | Md2Arxive | OCaml | Proof-of-concept / unmaintained | Markdown → LaTeX transpiler for arXiv submissions, formal semantics & compiler pipeline. |
 | Docxwatermarker | Python | Production-tested / case study / unmaintained | Byte-preserving image replacement in .docx templates, formal specs + reproducible builds. |
+| The Circus of Fantastic Assertions | Step Right Up, Ladies and Gentlemen! | Probabilistic Stability | Formal specification for people with no time and the hidden wonders of compilation |
 | Macrobiotics of Macros | text, math and assert | Beta |  A Culinary Guide to Lisp Metaprogramming |
 | Schrödinger Recursion | Python | A compact, educational Lisp interpreter in Python that demonstrates the **Schrödinger Recursion** pattern |
 | ErrorContext | Python | Conceptual experiment in exception‑driven observability | Python stack traces tell you where things broke, ErrorContext tells you why |
@@ -95,6 +96,13 @@ Features:
 
 ---
 
+
+## ***▸▸ [Il Circo Delle Asserzioni Fantastiche](https://github.com/FabioFGBuono/AssertionCircus/): Formal specification for people with no time and the hidden wonders of compilation***
+
+Did you know that assertions have side effects even when they vanish into thin air? Probably not, but fear not, this and much more awaits you.
+"Step right up, ladies and gentlemen", the grand circus of fantastic assertions is about to begin.
+
+---
 
 ## ***▸▸ [Macrobiotics of Macros](https://github.com/FabioFGBuono/Macrobiotics-of-Macros): Quasiquotation and the Art of Code Assembly: A Culinary Guide to Lisp Metaprogramming***
 
