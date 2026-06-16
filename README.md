@@ -22,9 +22,11 @@
 | The Circus of Fantastic Assertions | Step Right Up, Ladies and Gentlemen! | Probabilistic Stability | Formal specification for people with no time and the hidden wonders of compilation |
 | Macrobiotics of Macros | text, math and assert | Beta |  A Culinary Guide to Lisp Metaprogramming |
 | Dieci-Atti-Unificanti | text | WORK IN PROGRESS | Un piatto storico-algoritmico tra Skolem e Montanari unificato a vapore |
-| Schrödinger Recursion | Python | ... | A compact, educational Lisp interpreter in Python that demonstrates the **Schrödinger Recursion** pattern |
-| Curry-Howard A Recipe | Text | ... | Why Your Bugs Are Fallacious Theorems... and how to prepare better code |
+| Schrödinger Recursion | Python | A compact, educational Lisp interpreter in Python that demonstrates the **Schrödinger Recursion** pattern |
+| Curry-Howard A Recipe | Text | Why Your Bugs Are Fallacious Theorems... and how to prepare better code |
 | ErrorContext | Python | Conceptual experiment in exception‑driven observability | Python stack traces tell you where things broke, ErrorContext tells you why |
+| Keyclick | Text |  WORK IN PROGRESS | History of Multitasking |
+| Appunti Sui Linguaggi | Text |  WORK IN PROGRESS | ... |
 | Symmetries-Invariants-Music | text, math and music | an idea about music theory | Whole tones, fifths, and zigzag patterns |
 
 ---
@@ -144,7 +146,7 @@ A compact, educational Lisp interpreter in Python that demonstrates the **Schrö
 
 ## ***▸▸ [Curry-Howard A Recipe](https://github.com/FabioFGBuono/Curry-Howard_A_Recipe)***
 
-*Why Your Bugs Are Fallacious Theorems... and how to prepare better code*
+*hy Your Bugs Are Fallacious Theorems... and how to prepare better code*
 
 ---
 
@@ -154,8 +156,20 @@ A compact, educational Lisp interpreter in Python that demonstrates the **Schrö
 
 > ErrorContext let the exception accumulate its own context as it unwinds. The call stack is the trail. The exception is the log entry and no coordination is required. Obviously is a conceptual experiment in exception‑driven observability, it’s fully functional, but its main purpose is to explore what happens when the exception becomes the log.*
 
+---
 
 
+
+## ***▸▸ [Keyclick](https://github.com/FabioFGBuono/Keyclick)***
+
+*History of Multitasking*
+
+---
+
+
+## ***▸▸ [Appunti Sui Linguaggi](https://github.com/FabioFGBuono/Appunti_Sui_Linguaggi)***
+
+WORK IN PROGRESS
 
 ---
 
@@ -200,9 +214,6 @@ This statement applies to all repositories under this account, unless otherwise 
 
 
 
-[HTML Page Here](https://fabiofgbuono.github.io/main/index.html)
+[HTML Page Here](https://fabiofgbuono.github.io/)
 
 ---
-
-
-
