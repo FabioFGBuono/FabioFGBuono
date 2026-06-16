@@ -12,7 +12,7 @@
 ---
 
 
-## Key repos  
+## Key repos
 ![Issues](https://img.shields.io/badge/Issues-Open_with_care-green)
 
 | Repo | Tech | Status | One-line |
@@ -21,22 +21,27 @@
 | Docxwatermarker | Python | Production-tested / case study / unmaintained | Byte-preserving image replacement in .docx templates, formal specs + reproducible builds. |
 | The Circus of Fantastic Assertions | Step Right Up, Ladies and Gentlemen! | Probabilistic Stability | Formal specification for people with no time and the hidden wonders of compilation |
 | Macrobiotics of Macros | text, math and assert | Beta |  A Culinary Guide to Lisp Metaprogramming |
+| Dieci-Atti-Unificanti | text | WORK IN PROGRESS | Un piatto storico-algoritmico tra Skolem e Montanari unificato a vapore |
 | Schrödinger Recursion | Python | A compact, educational Lisp interpreter in Python that demonstrates the **Schrödinger Recursion** pattern |
+| Curry-Howard_A_Recipe | Text | Why Your Bugs Are Fallacious Theorems... and how to prepare better code |
 | ErrorContext | Python | Conceptual experiment in exception‑driven observability | Python stack traces tell you where things broke, ErrorContext tells you why |
 | Symmetries-Invariants-Music | text, math and music | an idea about music theory | Whole tones, fifths, and zigzag patterns |
 
-
-
+---
 
 ## Preprint and more
 ![Conceptual Hazard](https://img.shields.io/badge/Conceptual_Hazard-Think_at_your_own_risk-blueviolet)
 ![Heavy Concepts Ahead](https://img.shields.io/badge/Warning-Heavy_concepts_ahead-red)
 
+
 | Repo | Repo | Link |
 |---|---:|---|
 | Mixed-Radix One-Time Pad | https://github.com/FabioFGBuono/Mixed_Radix_OTP | [![arXiv](https://img.shields.io/badge/arXiv-2606.16040-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.16040) |
 
+
 ---
+
+
 
 ## ∑ ***▸ Projects, ideas, experiments***
 
@@ -82,7 +87,7 @@ A small but complete compiler pipeline showing AST, lexing, parsing, semantic va
 ---
 
 
-## ***▸▸ [Docxwatermarker](https://github.com/FabioFGBuono/Docxwatermarker): Educational case study in rigorous Python engineering***
+## ***▸▸ [Docxwatermarker](https://github.com/FabioFGBuono/docxwatermarker): Educational case study in rigorous Python engineering***
 
 
 Replace images inside .docx templates byte-for-byte, preserving layout for per-recipient document personalization (confidentiality stamps, draft markers, watermarks for traceability).
@@ -121,12 +126,39 @@ A Michelin starred presentation of the culinary masterpiece known as “Homoicin
 
 ---
 
-## ***▸▸ [Schrödinger Recursion](https://github.com/FabioFGBuono/Schrodinger-Recursion): Another Educational case study in rigorous Python engineering***
 
-A compact, educational Lisp interpreter in Python that demonstrates the **Schrödinger Recursion** pattern... a simple S‑expression parser, symbolic/list representations (`Recipe`, `Platter`), a lexical environment (`Kitchen`), and a trampoline-based mechanism for handling thunks and recursion. Includes built‑in functions, examples and tests (definitions, lambdas, recursion, lists, arithmetic), plus design notes explaining key choices and trade‑offs. Use this repository as a hands‑on tool to explore **closures**, **thunking**, **trampolining**, and interpreter design decisions—ideal for teaching or experimentation.
+## ***▸▸ [Dieci Atti Unificanti](https://github.com/FabioFGBuono/Dieci-Atti-Unificanti): A historic–algorithmic dish between Skolem and Montanari, unified by steam.***
+
+Skolem, Herbrand and Montanari in Ten Acts, during the show you'll be able to enjoy a delicious Skolemödelöv with Unification Sauce, featuring Complexity Reduction through Systematic Elimination of Universal Variables via Instantiation with Syntactically Constructed Functions from the Surrounding Environment. Bon appetit...
 
 
 ---
+
+## ***▸▸ [Schrödinger Recursion](https://github.com/FabioFGBuono/Schrodinger-Recursion): Another Educational case study in rigorous Python engineering***
+
+A compact, educational Lisp interpreter in Python that demonstrates the **Schrödinger Recursion** pattern... a simple S‑expression parser, symbolic/list representations (`Recipe`, `Platter`), a lexical environment (`Kitchen`), and a trampoline-based mechanism for handling thunks and recursion. Includes built‑in functions, examples and tests (definitions, lambdas, recursion, lists, arithmetic), plus design notes explaining key choices and trade‑offs. Use this repository as a hands‑on tool to explore **closures**, **thunking**, **trampolining**, and interpreter design decisions, ideal for food lovers, teaching and experimenters, and also for a bit of fun.
+
+
+---
+
+
+## ***▸▸ [ErrorContext](https://github.com/FabioFGBuono/Curry-Howard_A_Recipe)***
+
+*Why Your Bugs Are Fallacious Theorems... and how to prepare better code*
+
+---
+
+## ***▸▸ [ErrorContext](https://github.com/FabioFGBuono/ErrorContext)***
+
+*Python stack traces tell you where things broke. errorcontext tells you why, with no external dependencies. No separate logging setup. No configuration files. The exception carries its own context. Always. Enjoy!*
+
+> ErrorContext let the exception accumulate its own context as it unwinds. The call stack is the trail. The exception is the log entry and no coordination is required. Obviously is a conceptual experiment in exception‑driven observability, it’s fully functional, but its main purpose is to explore what happens when the exception becomes the log.*
+
+
+
+
+---
+
 
 ## ***▸▸ [Symmetries-Invariants-Music](https://github.com/FabioFGBuono/Symmetries-Invariants-Music)***
 
@@ -168,7 +200,7 @@ This statement applies to all repositories under this account, unless otherwise 
 
 
 
-[HTML Page Here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/FabioFGBuono/FabioFGBuono/main/index.html)
+[HTML Page Here](https://fabiofgbuono.github.io/main/index.html)
 
 ---
 
